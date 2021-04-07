@@ -11,6 +11,27 @@ intents:
   - ask_lower_stress
   - ask_eat_healthy
   - ask_exercise
+  - inform
+  - out_of_scope
+
+slots:
+  confirm_exercise:
+    type: unfeaturized
+  exercise:
+    type: unfeaturized
+  sleep:
+    type: unfeaturized
+  diet:
+    type: unfeaturized
+  stress:
+    type: unfeaturized
+  goal:
+    type: unfeaturized
+
+entities:
+  - exercise
+  - sleep
+  - stress
 
 responses:
   utter_greet:
