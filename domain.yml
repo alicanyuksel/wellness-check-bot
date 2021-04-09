@@ -35,8 +35,20 @@ entities:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hi, It's time for your daily wellness check. Tracking healthy habits is a great way to measure your progress over time. Would you like to answer a few questions about your health ?"
 
+  utter_ask_confirm_exercise:
+  - text: "Did you exercise yesterday? Don't sweat it if you didn't run a marathon - walks count!"
+
+  utter_ask_sleep:
+  - text: "How much sleep did you get last night ?"
+
+  utter_ask_exercise:
+  - text: "What kind of exercise did you do ?"
+
+  utter_ask_diet:
+  - text: "Did you stick to a healthy diet yesterday ?"
+  
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -61,6 +73,10 @@ responses:
 
   utter_diet_info:
   - text: "A healthy diet includes fruits and vegetables, whole grains, dairy, lean protein, and plant-based fats. While there is room in a healthy diet for treats, added sugar should be eaten sparingly. Aim for a variety of foods, and balance."
+
+forms:
+
+
 
 session_config:
   session_expiration_time: 60
