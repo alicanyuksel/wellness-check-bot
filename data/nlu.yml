@@ -125,6 +125,13 @@ nlu:
     - I want to do something else
     - I changed my mind
 
+- intent: thankyou
+  examples: |
+    - okey great thanks
+    - thank you
+    - sure thanks
+    - thanks bye
+    - thanks
 
 - intent: mood_great
   examples: |
