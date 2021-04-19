@@ -2,6 +2,16 @@ version: "2.0"
 
 rules:
 
+- rule: Submit form
+  condition:
+  # Condition that form is active.
+  - active_loop: health_form
+  steps:
+  - action: health_form
+  - active_loop: null
+  # The action we want to run when the form is submitted.
+  - action: utter_slots_values
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
