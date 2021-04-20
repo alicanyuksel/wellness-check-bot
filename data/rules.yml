@@ -11,6 +11,8 @@ rules:
   - active_loop: null
   # The action we want to run when the form is submitted.
   - action: utter_slots_values
+  - action: action_restart
+  - action: restart
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
